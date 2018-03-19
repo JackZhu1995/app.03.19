@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style>
+			
+			#container {
+				
+				width: 80%;
+				height: 450px;
+				border: 1px red solid ;
+				
+				display: flex;
+				justify-content: space-around;
+				
+			}
+			
+			.subdiv {
+				height:50px; width: 100px;
+			}
+			
+			.middle {
+				background-color: lightblue;
+		
+				/*flex: 1;*/
+			}
+			.func {
+				flex: 1;
+				background-color: lightcoral;
+			}
+			.xy-center {
+								
+				display: flex;
+				justify-content: center;
+				align-items: center;		
+			}
+			
+		</style>
+		
+	</head>
+	<body>
+		
+		<div id="container">
+			<div class="subdiv func xy-center">A</div>
+			<div class="subdiv middle xy-center">电池</div>
+			<div class="subdiv func xy-center">C</div>
+			
+		</div>
+		
+	</body>
+</html>
